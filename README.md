@@ -236,14 +236,6 @@ ID,Name,ResourceGroup,Location,VMSize,OSType,OSDiskSizeGB,...
 
 ---
 
-## Roadmap / Future Improvements
-
-- [ ] Add retry logic with exponential backoff for transient API errors.
-- [ ] Add `--output-dir` CLI argument to all scripts.
-- [ ] Add pagination to scripts that may miss resources in large environments.
-- [ ] Add a master runner script to execute all collection steps in order.
-- [ ] Add basic unit tests with mocked API responses.
-- [ ] Support Azure workload identity / managed identity authentication (in addition to client secret).
 
 ---
 
